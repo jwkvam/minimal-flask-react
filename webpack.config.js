@@ -11,12 +11,8 @@ module.exports = {
             }
         ]
     },
-    resolve: {
-        extensions: ['*', '.js', '.jsx']
-    },
     output: {
         path: __dirname + '/static',
-        publicPath: '/',
         filename: 'bundle.js'
     }
 };
